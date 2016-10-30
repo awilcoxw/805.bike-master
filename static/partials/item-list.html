@@ -1,0 +1,12 @@
+<div class="container">
+  <div id="item-list" class="main col-sm-offset-2 col-sm-8">
+    <div ng-repeat="item in (orderedItems = (allItemsCtrl.items | orderBy:'created':true))">
+      <a ng-href="/#/listedstuff/{{item.id}}">{{item.title}}</a>
+      <p>{{item.cost | currency}}</p>
+      <!--<img ng-src={{item.picture}}>-->
+      <!--<p>{{item.description}}</p>-->
+      <p>Location: {{item.location}}</p>
+      <hr>
+    </div>
+  </div>
+</div>
