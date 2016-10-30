@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="lessSketchyThanCraigslist">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="static/favicon.ico"> <!--http://www.iconsdb.com/black-icons/checkmark-icon.html-->
+
+    <title>Less Sketchy than Craigslist</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this site -->
+    <link href="static/css/internal.css" rel="stylesheet">
+
+    <!-- Angular and internal js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-resource.js"></script>
+    <script src="static/js/users.js"></script>
+    <script src="static/js/items.js"></script>
+    <script src="static/js/app.js"></script>
+    <script src="static/js/header.js"></script>
+  </head>
+
+  <body>
+
+    <app-header></app-header>
+
+    <div ng-view></div>
+
+  </body>
+</html>

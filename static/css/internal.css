@@ -1,0 +1,70 @@
+/*
+ * Base structure
+ */
+
+ /* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+/* making links h2 size */
+#item-list a {
+  font-size: 24px;
+}
+
+#user-detail button {
+  margin-top: 15px;
+}
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+
+/*
+ * class for preserving newlines
+ */
+
+.preserve-nl {
+  white-space: pre-line
+}
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+.homepage {
+    text-align: center;
+}
+
+.Site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.Site-content {
+  flex: none;
+}
+
