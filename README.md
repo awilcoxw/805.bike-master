@@ -1,4 +1,3 @@
-805.bikes
+less-sketchy-than-craigslist
 ===============
-
-Buy/sell bicycles in the 805
+This is the code for less-sketchy-than-craigslist.appspot.com
