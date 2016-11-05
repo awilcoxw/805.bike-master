@@ -1,8 +1,8 @@
 {
-  "name": "less-sketchy-than-craigslist",
+  "name": "ride-your-bike",
   "description": "A test project for AngularJS",
   "version": "0.0.1",
-  "homepage": "https://github.com/waternova/less-sketchy-than-craigslist",
+  "homepage": "https://www.andrew-w.com",
   "license": "MIT",
   "private": true,
   "dependencies": {
