@@ -1,7 +1,7 @@
 {
   "name": "ride-your-bike",
   "description": "A test project for AngularJS",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://www.andrew-w.com",
   "license": "MIT",
   "private": true,
