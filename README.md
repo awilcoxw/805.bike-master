@@ -1,3 +1,3 @@
-less-sketchy-than-craigslist
+ride-your-bike
 ===============
-This is the code for less-sketchy-than-craigslist.appspot.com
+This is the code for 805.bike.appspot.com
